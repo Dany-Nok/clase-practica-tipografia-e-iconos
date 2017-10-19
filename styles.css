@@ -1,0 +1,64 @@
+body{
+  position: absolute;
+}
+/*nav{
+
+}*/
+.contenedor{
+  overflow: auto;
+}
+li{
+  background-color: #E2A9F3;
+  list-style: none;
+  width: 220px;
+  height: 350px;
+  border: 3px outset;
+  display: inline-block;
+  float: left;
+}
+li .no{
+  background-color: #E2A9F3;
+  list-style: none;
+  width: 250px;
+  height: 350px;
+  border: 3px outset;
+  display: inline-block;
+  float: left;
+}
+h2{
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 28px;
+  color: darkblue;
+}
+li h2 .nope{
+  text-decoration: underline;
+}
+p{
+  font-family: 'Aclonica', sans-serif;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #DF013A;
+}
+.fa fa-frown-o fa-5x{
+
+}
+.fa fa-music fa-5x{
+
+}
+.fa fa-beer fa-5x{
+
+}
+.fa fa-ban fa-5x{
+
+}
+.fa fa-question-circle fa-5x{
+
+}
+a{
+  /*padding: 10px;*/
+  text-decoration: none;
+}
