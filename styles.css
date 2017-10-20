@@ -1,17 +1,11 @@
-body{
-  position: absolute;
-}
-/*nav{
-
-}*/
 .contenedor{
-  overflow: auto;
+  overflow: hidden;
 }
 li{
   background-color: #E2A9F3;
   list-style: none;
   width: 220px;
-  height: 350px;
+  height: 365px;
   border: 3px outset;
   display: inline-block;
   float: left;
@@ -20,7 +14,7 @@ li .no{
   background-color: #E2A9F3;
   list-style: none;
   width: 250px;
-  height: 350px;
+  height: 365px;
   border: 3px outset;
   display: inline-block;
   float: left;
@@ -30,7 +24,7 @@ h2{
   text-align: center;
   padding-left: 4px;
   padding-right: 4px;
-  font-size: 28px;
+  font-size: 25px;
   color: darkblue;
 }
 li h2 .nope{
@@ -38,27 +32,36 @@ li h2 .nope{
 }
 p{
   font-family: 'Aclonica', sans-serif;
+  font-size: 15px;
   text-align: justify;
   padding-left: 10px;
   padding-right: 10px;
   color: #DF013A;
 }
-.fa fa-frown-o fa-5x{
-
-}
-.fa fa-music fa-5x{
-
-}
-.fa fa-beer fa-5x{
-
-}
-.fa fa-ban fa-5x{
-
-}
-.fa fa-question-circle fa-5x{
-
+i{
+  position: relative;
+  padding-top: 15px;
+  padding-left: 75px;
+  padding-right: 70px;
 }
 a{
-  /*padding: 10px;*/
+  display: block;
   text-decoration: none;
+}
+a:hover{
+  background: black;
+  height: 365px;
+}
+a:hover h2{
+  color: white;
+}
+a:hover p{
+  color: gray;
+}
+a:hover i, a:active p{
+  color: gold;
+}
+a:active{
+  background: purple;
+  height: 365px;
 }
